@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    p {
+      margin: 0px 0px;
+    }
+
+    .lay-out {
+      margin-left: 100px;
+      margin-right: 100px;
+    }
+
+    .button-style {
+      background-color: palevioletred;
+      padding: 7px 12px;
+      border-style: none;
+      margin-top: 10px;
+    }
+
+    .header {
+      height: 60px;
+      background-color: rgb(174, 173, 173);
+      display: flex;
+      padding: 0px 100px;
+      justify-content: space-between;
+      align-items: center;
+
+    }
+
+    .navigation-bar {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .navigation-bar div {
+      margin-right: 10px;
+    }
+
+    .image-1-container {
+    background-color: black;
+    }
+
+    .image-1 {
+      width: 100%;
+      
+
+    }
+
+    .image-content {
+      width: 100%;
+    }
+
+    .content-part {
+      background-color: black;
+      padding-right: 100px;
+      padding-left: 100px;
+      padding-bottom: 20px;
+    }
+
+    .text {
+      text-align: center;
+      font-size: 25px;
+      font-weight: 500;
+      padding-top: 15px;
+      color: white;
+    }
+
+    .text p {
+      font-size: 13px;
+      padding-top: 20px;
+      font-weight: 500;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      column-gap: 15px;
+      row-gap: 40px;
+      padding-top: 30px;
+    }
+
+    .grid-text {
+      color: rgb(0, 145, 217);
+
+
+    }
+
+    .grid-text p {
+      font-size: 12px;
+      color: white;
+      padding-top: 20px;
+    }
+
+    .advert-part {
+      background-color: rgb(84, 84, 84);
+    
+      padding-left: 50px;
+      padding-right: 50px;
+
+    }
+
+    .advert-text {
+
+      color: white;
+      align-items: center;
+    }
+    
+    .four-picture {
+      width: 100%;
+
+
+    }
+    .padding {
+      padding-right: 60px;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div class="lay-out">
+    <div class="header">
+      <div>
+        FASHION CRAZE
+      </div>
+      <div class='navigation-bar'>
+        <div>HOME</div>
+        <div>GALLERY</div>
+        <div>BLOG</div>
+        <div>SERVICES</div>
+        <div>CONTACT</div>
+      </div>
+      <div>
+        <img src="/picture3/search.png">
+      </div>
+    </div>
+    <div class="image-1-container"><img src="/picture3/banner4.jpg" class="image-1"></div>
+    <div class="content-part">
+      <div>
+        <div class="text"> Fashion Tip <p> RUE AGTHONIS dedicated their London Fashion Week SS23 runway show to Queen
+            Elizabeth II. The brand will continue to live in admiration of Her Majesty and the unforgettable action she
+            took to encourage and promote creatives. </p>
+        </div>
+      </div>
+      <div class="grid">
+        <div>
+          <img src="/picture3/img6.jpg" class="image-content">
+        </div>
+        <div class="grid-text">Find Your Personal Style <p>Daily fashion news that you need to know today, curated by
+            The Business of Fashion's editorial team. Make BoF your fashion news source.
+          </p>
+          <button class="button-style">Learn More</button>
+        </div>
+        <div class="grid-text">Find Your Personal Style <p>Daily fashion news that you need to know today, curated by
+            The Business of Fashion's editorial team. Make BoF your fashion news source.
+          </p>
+          <button class="button-style">Learn More</button>
+        </div>
+        <div>
+          <img src="/picture3/pic12.jpg" class="image-content">
+        </div>
+        <div>
+          <img src="/picture3/pic13.jpg" class="image-content">
+        </div>
+        <div class="grid-text">Find Your Personal Style <p>Daily fashion news that you need to know today, curated by
+            The Business of Fashion's editorial team. Make BoF your fashion news source.
+          </p>
+          <button class="button-style">Learn More</button>
+        </div>
+      </div>
+    </div>
+    <div class="advert-part">
+      <div style="color: white; font-size: 25px; text-align: center; font-weight: 500; padding-top:25px;">Fashion Show
+        2016 <p style="color: rgb(221, 208, 151); font-size: 12px; padding-top: 3px;">Daily fashion news that you need
+          to know today, curated by The Business of Fashion's editorial team.
+        </p>
+      </div>
+      <div style="display: grid; grid-template-columns: 1fr 1fr; column-gap: 15px;
+      row-gap: 40px; padding-top: 20px;">
+        <div style="display: grid; grid-template-rows:1fr 1fr;">
+          <div><img class="image-content" src="picture3/pic1.jpg"></div>
+          <div style="background-color: white; font-size: 8px; padding: 5px 10px; text-align: center">Fashion has always
+            been temporary and uncertain. You...</div>
+        </div>
+        <div style="display: grid; grid-template-rows: 1fr 1fr;">
+          <div><img class="image-content" src="picture3/pic2.jpg"></div>
+          <div style="background-color: white; font-size: 8px; padding: 5px 10px; text-align: center">Fashion has always
+            been temporary and uncertain. You...</div>
+        </div>
+      </div>
+      <div style="display: flex; padding-right: 200px; padding-left: 200px; padding-top: 40px;">
+        <div class="padding"> <img src="picture3/pic7.jpg" class="four-picture" ></div>
+        <div class="padding"><img src="picture3/pic8.jpg"  class="four-picture"></div>
+        <div class="padding"><img src="picture3/pic9.jpg" class="four-picture" ></div>
+        <div ><img src="picture3/pic10.jpg" class="four-picture"></div>
+      </div>
+
+    </div>
+
+  </div>
+
+</body>
+
+</html>
